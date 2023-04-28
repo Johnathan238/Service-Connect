@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {MatCardModule} from '@angular/material/card';
+
 
 @Component({
   selector: 'app-homepage',
@@ -7,6 +7,12 @@ import {MatCardModule} from '@angular/material/card';
   styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent {
+  //   centered = false;
+  // disabled = false;
+  // unbounded = false;
+
+  // radius: number | undefined;
+  // color: string | undefined; ///Ignore for now!!!!
 
   cards = [
     {
