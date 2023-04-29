@@ -18,6 +18,14 @@ body {
   color: black;
 }
 
+.cards .example-card:hover .mat-card-image {
+  transform: translate(-3.5rem, -3.5rem);
+}
+
+.cards .example-card:hover {
+  transform: translate(3.5rem, 3.5rem);
+}
+
 img {
     object-fit: cover;
     width: 100%;
@@ -28,5 +36,6 @@ img {
   background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
   background-size: cover;
 }
+
 
 

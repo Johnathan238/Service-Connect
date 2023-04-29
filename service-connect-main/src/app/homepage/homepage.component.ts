@@ -7,12 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent {
-  //   centered = false;
-  // disabled = false;
-  // unbounded = false;
-
-  // radius: number | undefined;
-  // color: string | undefined; ///Ignore for now!!!!
 
   cards = [
     {
