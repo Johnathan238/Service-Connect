@@ -1,0 +1,29 @@
+.navbar__container
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 5%;
+  background-color: #555a54;
+}
+
+.navbar__container > li > a {
+  text-decoration: none;
+}
+
+li
+{
+  list-style-type: none;
+}
+
+a:link{
+  text-decoration:none;
+  font-size: 20px;
+  color: #f7f2ef;
+}
+a:hover{
+  transition: all ease-in 0.2s;
+  font-size: 30px;
+  color: maroon;
+}
