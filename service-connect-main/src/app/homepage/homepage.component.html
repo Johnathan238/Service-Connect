@@ -1,0 +1,32 @@
+<mat-grid-list cols="1" rowHeight="2:1">
+  <div class="row">
+    <div class="column">
+      <mat-grid-tile>
+        <div class="cards" *ngFor="let card of cards">
+          <mat-card class="example-card">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>{{ card.Name }}</mat-card-title>
+              <mat-card-subtitle>{{ card.Breed }}</mat-card-subtitle>
+            </mat-card-header>
+            <img
+              mat-card-image
+              src="{{ card.img }}"
+              alt="Photo of a Shiba Inu"
+            />
+            <mat-card-content>
+              <p>
+                {{ card.description }}
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button>Pricing</button>
+              <button mat-button>Share my service</button>
+            </mat-card-actions>
+          </mat-card>
+        </div>
+      </mat-grid-tile>
+    </div>
+  </div>
+</mat-grid-list>
+
